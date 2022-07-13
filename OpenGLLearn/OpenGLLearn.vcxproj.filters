@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Geting Started">
+      <UniqueIdentifier>{85754869-ff79-40cf-89b2-8b0a5af5c83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件\Shader">
+      <UniqueIdentifier>{3fa96e21-bcbb-4d02-8dc1-cab098508d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shader\VS">
+      <UniqueIdentifier>{0414c318-1537-4056-9426-acc9fff6ab70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shader\FS">
+      <UniqueIdentifier>{fae278d9-3f42-4089-8a99-7e981fca1dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GLAD">
+      <UniqueIdentifier>{70ca943e-120f-4fa3-a100-527a20ae1de4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Getting Start\hello_triangle.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="Getting Start\hello_triangle_exercise1.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="Getting Start\hello_triangle_exercise2.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="Getting Start\HelloWindow.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="Getting Start\shaders_class.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="Getting Start\shaders_interpolation.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="Getting Start\shaders_uniform.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="Getting Start\WindowsTest.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="textures.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="textures_combined.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations_exercise2.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_s.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\Vertex Shader\3.3.shader.vs">
+      <Filter>源文件\Shader\VS</Filter>
+    </None>
+    <None Include="4.2.texture.fs">
+      <Filter>源文件\Shader\FS</Filter>
+    </None>
+    <None Include="4.1.texture.vs">
+      <Filter>源文件\Shader\VS</Filter>
+    </None>
+    <None Include="4.1.texture.fs">
+      <Filter>源文件\Shader\FS</Filter>
+    </None>
+    <None Include="3.3.shader.fs">
+      <Filter>源文件\Shader\FS</Filter>
+    </None>
+    <None Include="5.1.transform.vs">
+      <Filter>源文件\Shader\VS</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Img\container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
