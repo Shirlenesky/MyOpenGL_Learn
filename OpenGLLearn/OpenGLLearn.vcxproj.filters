@@ -28,18 +28,27 @@
     <Filter Include="源文件\GLAD">
       <UniqueIdentifier>{70ca943e-120f-4fa3-a100-527a20ae1de4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Lighting">
+      <UniqueIdentifier>{8ab898ac-e724-4ec8-b930-483007d9342a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shader\FS\1">
+      <UniqueIdentifier>{20590d1e-6c55-4bd3-b113-6e35374272ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shader\VS\1">
+      <UniqueIdentifier>{b19e2e7f-d07f-49c2-86ac-9e8498567619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shader\FS\2">
+      <UniqueIdentifier>{43ae8113-edd5-45de-895a-ae9d955be83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shader\VS\2">
+      <UniqueIdentifier>{c1114a8d-cb00-4a0c-a0cc-df3ff1cba8d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Getting Start\hello_triangle.cpp">
-      <Filter>源文件\Geting Started</Filter>
-    </ClCompile>
     <ClCompile Include="Getting Start\hello_triangle_exercise1.cpp">
       <Filter>源文件\Geting Started</Filter>
     </ClCompile>
     <ClCompile Include="Getting Start\hello_triangle_exercise2.cpp">
-      <Filter>源文件\Geting Started</Filter>
-    </ClCompile>
-    <ClCompile Include="Getting Start\HelloWindow.cpp">
       <Filter>源文件\Geting Started</Filter>
     </ClCompile>
     <ClCompile Include="Getting Start\shaders_class.cpp">
@@ -49,9 +58,6 @@
       <Filter>源文件\Geting Started</Filter>
     </ClCompile>
     <ClCompile Include="Getting Start\shaders_uniform.cpp">
-      <Filter>源文件\Geting Started</Filter>
-    </ClCompile>
-    <ClCompile Include="Getting Start\WindowsTest.cpp">
       <Filter>源文件\Geting Started</Filter>
     </ClCompile>
     <ClCompile Include="glad.c">
@@ -69,6 +75,30 @@
     <ClCompile Include="transformations_exercise2.cpp">
       <Filter>源文件\Geting Started</Filter>
     </ClCompile>
+    <ClCompile Include="coordinate_systems.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_multiple.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_keyboard_dt.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_class.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsTest.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWindow.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle.cpp">
+      <Filter>源文件\Geting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="colors.cpp">
+      <Filter>源文件\Lighting</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader_s.h">
@@ -77,25 +107,40 @@
     <ClInclude Include="stb_image.h">
       <Filter>源文件\头文件</Filter>
     </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\Vertex Shader\3.3.shader.vs">
-      <Filter>源文件\Shader\VS</Filter>
-    </None>
-    <None Include="4.2.texture.fs">
-      <Filter>源文件\Shader\FS</Filter>
+      <Filter>源文件\Shader\VS\1</Filter>
     </None>
     <None Include="4.1.texture.vs">
-      <Filter>源文件\Shader\VS</Filter>
-    </None>
-    <None Include="4.1.texture.fs">
-      <Filter>源文件\Shader\FS</Filter>
-    </None>
-    <None Include="3.3.shader.fs">
-      <Filter>源文件\Shader\FS</Filter>
+      <Filter>源文件\Shader\VS\1</Filter>
     </None>
     <None Include="5.1.transform.vs">
-      <Filter>源文件\Shader\VS</Filter>
+      <Filter>源文件\Shader\VS\1</Filter>
+    </None>
+    <None Include="6.1.coordinate_systems.vs">
+      <Filter>源文件\Shader\VS\1</Filter>
+    </None>
+    <None Include="3.3.shader.fs">
+      <Filter>源文件\Shader\FS\1</Filter>
+    </None>
+    <None Include="4.1.texture.fs">
+      <Filter>源文件\Shader\FS\1</Filter>
+    </None>
+    <None Include="4.2.texture.fs">
+      <Filter>源文件\Shader\FS\1</Filter>
+    </None>
+    <None Include="1.colors.fs">
+      <Filter>源文件\Shader\FS\2</Filter>
+    </None>
+    <None Include="1.colors.vs">
+      <Filter>源文件\Shader\VS\2</Filter>
+    </None>
+    <None Include="1.light_cube.fs">
+      <Filter>源文件\Shader\FS\2</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

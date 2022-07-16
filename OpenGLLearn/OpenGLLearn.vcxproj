@@ -19,11 +19,24 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="glad.c" />
-    <ClCompile Include="Getting Start\HelloWindow.cpp">
+    <ClCompile Include="camera_class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Getting Start\hello_triangle.cpp">
+    <ClCompile Include="camera_keyboard_dt.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="colors.cpp" />
+    <ClCompile Include="coordinate_systems.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_multiple.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="HelloWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="hello_triangle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Getting Start\hello_triangle_exercise1.cpp">
@@ -44,7 +57,7 @@
     <ClCompile Include="textures.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Getting Start\WindowsTest.cpp">
+    <ClCompile Include="WindowsTest.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="textures_combined.cpp">
@@ -53,17 +66,24 @@
     <ClCompile Include="transformations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="transformations_exercise2.cpp" />
+    <ClCompile Include="transformations_exercise2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="camera.h" />
     <ClInclude Include="shader_s.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="1.colors.fs" />
+    <None Include="1.colors.vs" />
+    <None Include="1.light_cube.fs" />
     <None Include="4.2.texture.fs" />
     <None Include="3.3.shader.fs" />
     <None Include="4.1.texture.fs" />
     <None Include="5.1.transform.vs" />
+    <None Include="6.1.coordinate_systems.vs" />
     <None Include="Shader\Vertex Shader\3.3.shader.vs" />
     <None Include="4.1.texture.vs" />
   </ItemGroup>
